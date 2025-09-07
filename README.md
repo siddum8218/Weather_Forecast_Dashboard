@@ -12,18 +12,19 @@ The purpose of this dashboard is to enable users to quickly assess climate condi
 and prepare for potential weather changes based on reliable forecasts.
 
 ## Tech Stack
--> Power BI Desktop – for data visualization and dashboard design.
--> DAX (Data Analysis Expressions) – for calculated measures and KPIs.
--> Power Query – for data transformation and cleaning layer for reshaping and preparing the data.
--> Custom Visuals – for radial gauges, cards, and line charts.
--> File Format - .pbix for development and .png for dashboard previews.
--> Data modeling - relationships established among tables.
+- 📊 **Power BI Desktop** – for data visualization and dashboard design.
+- 🧮 **DAX (Data Analysis Expressions)** – for creating calculated measures and KPIs.
+- 🔄 **Power Query** – for data transformation and cleaning.
+- 📈 **Custom Visuals** – used for radial gauges, cards, and line charts.
+- 🗂️ **File Format** – `.pbix` for development, `.png` for previews.
+- 🔗 **Data Modeling** – relationships established among tables.
+
 
 ## Data Sources
 OpenWeatherMap API – for real-time weather data.
 
 ## Features / Highlights
-- 📍 City Switcher: Easily toggle between cities (Bengaluru, Belagavi, Mangalore,Nysore,Vijayapur)
+- 📍 City Switcher: Easily toggle between cities (Bengaluru, Belagavi, Mangalore, Mysore, Vijayapur)
 - 🌡️ Live Weather Summary: Displays current temperature, cloud condition, wind speed, humidity, pressure, UV Index, and visibility
 - 📈 7-Day Forecast Chart: Interactive line chart showcasing temperature trends throughout the week
 - 🌅 Sunrise & Sunset Timings: Daylight indicators for daily planning
@@ -31,6 +32,7 @@ OpenWeatherMap API – for real-time weather data.
 - 🧪 Air Quality Index: Real-time AQI display including PM10, PM2.5, SO2, NO2, CO, and O3 levels with health indicators
 - 🎯 User-Friendly Layout: Dark theme with modern and intuitive layout for better readability
 - 🔄 Auto-Refresh Ready: Can be scheduled for daily updates using Power BI Service
+
 
 ## Problem and Solution
 Problem:
@@ -46,16 +48,18 @@ to Bengaluru and switchable to other cities. The solution also improves accessib
 clear visual cues, and an easy-to-navigate layout.
 
 ## Business Impact
-📊 Better Planning: Enables businesses and individuals to plan around weather and air quality conditions.
-🛡️ Health & Safety: Provides timely AQI and UV alerts to support safer decision-making.
-🏙️ Urban Management: Helps local authorities monitor pollution and weather trends for better city planning.
-🚛 Operational Efficiency: Supports logistics and event planning by forecasting weather disruptions.
+- 📊 **Better Planning:** Enables businesses and individuals to plan around weather and air quality conditions.
+- 🛡️ **Health & Safety:** Provides timely AQI and UV alerts to support safer decision-making.
+- 🏙️ **Urban Management:** Helps local authorities monitor pollution and weather trends for better city planning.
+- 🚛 **Operational Efficiency:** Supports logistics and event planning by forecasting weather disruptions.
+
 
 ## Key Insights
-🌡️ 7-Day Trends: Clear temperature forecasts help identify hot/cold spells.
-🧪 AQI Breakdown: Shows pollutant levels (PM2.5, SO2, CO, etc.) in real time.
-🌧️ Rain Prediction: Daily chance of rain helps plan travel and outdoor activities.
-🌍 City Comparison: Quick comparison of environmental conditions across cities.
+- 🌡️ **7-Day Trends:** Clear temperature forecasts help identify hot/cold spells.
+- 🧪 **AQI Breakdown:** Shows pollutant levels (PM2.5, SO2, CO, etc.) in real time.
+- 🌧️ **Rain Prediction:** Daily chance of rain helps plan travel and outdoor activities.
+- 🌍 **City Comparison:** Quick comparison of environmental conditions across cities.
+
 
 
 
